@@ -1,4 +1,8 @@
-﻿//
+﻿#region Copyright (c) 2020 Spencer Hoffa
+/// \file Program.cs
+/// \author Spencer Hoffa
+/// \copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
+#endregion
 
 namespace Bot
 {
@@ -6,7 +10,7 @@ namespace Bot
 	{
 		static int Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			System.Console.WriteLine("Hello World!");
 			return 0;
 		}
 	}
