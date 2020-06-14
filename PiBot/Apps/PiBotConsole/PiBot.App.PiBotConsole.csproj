@@ -1,0 +1,31 @@
+﻿<!--
+Copyright (c) 2020 Spencer Hoffa
+\file PiBot.App.PiBotConsol.csproj
+\author Spencer Hoffa
+\copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+		<AssemblyName>PiBotConsole</AssemblyName>
+		<StartupObject>PiBot.Apps.PiBotConsole.Program</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="log4net" Version="2.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\PiBot\PiBot.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="log4net.config">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿<!--
+Copyright (c) 2020 Spencer Hoffa
+\file App.xaml
+\author Spencer Hoffa
+\copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
+-->
+<Application x:Class="PiBotManager.App"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Application.Resources>
+	</Application.Resources>
+</Application>

@@ -1,0 +1,19 @@
+﻿<!--
+Copyright (c) 2020 Spencer Hoffa
+\file PiBot.csproj
+\author Spencer Hoffa
+\copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<OutputType>Library</OutputType>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="log4net" Version="2.0.8" />
+	</ItemGroup>
+
+</Project>

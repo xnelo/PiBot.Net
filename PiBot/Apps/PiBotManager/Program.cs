@@ -4,13 +4,24 @@
 /// \copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
 #endregion
 
-namespace Bot
+using System;
+
+namespace PiBotManager
 {
-	class Program
+	public class Program
 	{
+		[STAThread]
 		static int Main(string[] args)
 		{
-			System.Console.WriteLine("Hello World!");
+			MainWindowView window = new MainWindowView();
+
+			App app = new App();
+			app.MainWindow = window;
+			app.Run(window);
+
+			window.DataContext = null;
+			
+
 			return 0;
 		}
 	}

@@ -1,2 +1,5 @@
 PiBot/obj
 Pibot/bin
+.vs
+obj/
+bin/
