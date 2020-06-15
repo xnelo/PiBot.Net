@@ -13,4 +13,9 @@ Copyright (c) 2020 Spencer Hoffa
     <StartupObject>PiBotManager.Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\XneloUtils.Net\XneloUtils.Net\XneloUtils.Net.csproj" />
+    <ProjectReference Include="..\..\PiBot\PiBot.csproj" />
+  </ItemGroup>
+
 </Project>

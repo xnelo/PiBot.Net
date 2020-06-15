@@ -13,13 +13,18 @@ namespace PiBotManager
 		[STAThread]
 		static int Main(string[] args)
 		{
-			MainWindowView window = new MainWindowView();
+			MainWindowVM vm = new MainWindowVM();
+			MainWindowView window = new MainWindowView
+			{
+				DataContext = vm
+			};
 
 			App app = new App();
 			app.MainWindow = window;
 			app.Run(window);
 
 			window.DataContext = null;
+			vm.Dispose();
 			
 
 			return 0;
