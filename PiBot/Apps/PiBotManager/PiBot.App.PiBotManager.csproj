@@ -1,0 +1,23 @@
+﻿<!--
+Copyright (c) 2020 Spencer Hoffa
+\file PiBotManager.csproj
+\author Spencer Hoffa
+\copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
+-->
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<StartupObject>PiBot.App.PiBotManager.Program</StartupObject>
+		<AssemblyName>PiBotManager</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\XneloUtils.Net\XneloUtils.Net\XneloUtils.csproj" />
+		<ProjectReference Include="..\..\Core\PiBot.Core.csproj" />
+	</ItemGroup>
+
+</Project>

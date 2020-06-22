@@ -6,7 +6,7 @@
 
 using System.Windows;
 
-namespace PiBotManager
+namespace PiBot.App.PiBotManager
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml

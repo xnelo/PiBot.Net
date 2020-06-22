@@ -5,9 +5,9 @@
 #endregion
 
 using log4net;
-using PiBot.Error;
+using PiBot.Core.Error;
 
-namespace PiBot
+namespace PiBot.Core
 {
 	public class PiBot
 	{

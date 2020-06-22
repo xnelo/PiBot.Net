@@ -19,7 +19,7 @@ Copyright (c) 2020 Spencer Hoffa
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\PiBot\PiBot.csproj" />
+	  <ProjectReference Include="..\..\Core\PiBot.Core.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

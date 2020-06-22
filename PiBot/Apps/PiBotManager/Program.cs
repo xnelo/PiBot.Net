@@ -6,7 +6,7 @@
 
 using System;
 
-namespace PiBotManager
+namespace PiBot.App.PiBotManager
 {
 	public class Program
 	{

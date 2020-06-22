@@ -1,12 +1,13 @@
 #region Copyright (c) 2020 Spencer Hoffa
-/// \file PiBotConfig.cs
+/// \file ErrorCode.cs
 /// \author Spencer Hoffa
 /// \copyright \link LICENSE.md MIT License\endlink 2020 Spencer Hoffa 
 #endregion
 
-namespace PiBot
+namespace PiBot.Core.Error
 {
-	public struct PiBotConfig
+	public enum ErrorCode: byte
 	{
+		OK = 0
 	}
 }

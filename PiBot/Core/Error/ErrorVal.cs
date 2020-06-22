@@ -6,7 +6,7 @@
 
 using System;
 
-namespace PiBot.Error
+namespace PiBot.Core.Error
 {
 	public struct ErrorVal : IEquatable<ErrorVal>
 	{

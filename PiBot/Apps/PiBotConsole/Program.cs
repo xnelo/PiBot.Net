@@ -5,14 +5,14 @@
 #endregion
 
 using log4net;
-using PiBot.Error;
+using PiBot.Core.Error;
 
 namespace PiBot.Apps.PiBotConsole
 {
 	class Program
 	{
 		private static readonly ILog log = LogManager.GetLogger(typeof(Program));
-		private static PiBot s_Bot;
+		private static Core.PiBot s_Bot;
 
 		static int Main(string[] args)
 		{
@@ -23,7 +23,7 @@ namespace PiBot.Apps.PiBotConsole
 
 			System.Console.CancelKeyPress += Console_CancelKeyPress;
 
-			s_Bot = new PiBot();
+			s_Bot = new Core.PiBot();
 			var result = s_Bot.Run();
 			s_Bot = null;
 
